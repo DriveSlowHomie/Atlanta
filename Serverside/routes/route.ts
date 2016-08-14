@@ -13,6 +13,13 @@ let mongoose = require('mongoose');
 //   }
 // })
 
+// router.post('/movies', function(req, res, next) {
+//   let new_movie = new Movie({
+//     title: req.body.title,
+//     genre: req.body.genre,
+//     date_created: new Date()
+//   });
+
 // router.get('/secret', (req, res) => {
 //   res.send("This is the secret api! =D")
 // })

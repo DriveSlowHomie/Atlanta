@@ -16,7 +16,7 @@ namespace atl.Controllers {
 
     }
 
-    // public save() {
+    // public create() {
     //   let params = {
     //     title: this.movie.title,
     //     genre: this.movie.genre

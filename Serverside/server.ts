@@ -2,8 +2,6 @@ let express = require('express');
 let mongoose = require('mongoose');
 let bodyParser = require('body-parser');
 
-let secretRoute = require('./routes/route');
-
 const app = express();
 
 //database connection
@@ -18,6 +16,8 @@ const app = express();
 app.use(express.static('../Clientside'));
 app.use(bodyParser.urlencoded({extend:true}));
 app.use(bodyParser.json())
+
+app.use('/route', require('./routes/route'));
 
 
 app.get('/', function(req, res) {

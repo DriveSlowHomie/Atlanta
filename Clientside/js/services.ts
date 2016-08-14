@@ -6,7 +6,7 @@ namespace atl.Services {
   //     this.MovieResource = $resource('/routes/route/:id')
   //   }
   //
-  //   public save(movie) {
+  //   public add(movie) {
   //     return this.MovieResource.save(movie).$promise;
   //   }
   //
